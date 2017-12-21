@@ -1,0 +1,11 @@
+:root{
+--colorGris: silver;
+--colorPpal: #3c0d0d;
+--colorSec: #b89859;
+--fontTexto: 'Roboto', sans-serif;
+--fontTituloReg: 'Cinzel-Regular', serif;
+--tra35: all .35s ease;
+--tra50: all .5s ease;
+--sombra1: 0rem 0.5rem 1.4rem #333;
+
+}
