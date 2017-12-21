@@ -303,8 +303,7 @@ CTA1
 	background-image: url('../img/filigrama2.jpg');
 	background-position: left;
 	background-size: auto 100%;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 }
 .cta1-cont {
 		display: -webkit-box;
@@ -1049,7 +1048,281 @@ ROOMS
 .rooms-cont-col2-card3 p{color: white !important;width: 60%;}
 .rooms-cont-col2-card3 a{color: white !important;text-decoration: none;opacity: .6;-webkit-transition: all .5s ease;-o-transition: all .5s ease;transition: all .5s ease;}
 .rooms-cont-col2-card3 a:hover{color: white !important;opacity: 1;-webkit-transition: all .5s ease;-o-transition: all .5s ease;transition: all .5s ease;}
+.rooms-aboutus {
+	background: #3c0d0d;	
+}
+.rooms-aboutus-cont {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+.rooms-aboutus-cont-col1 {
+			-webkit-transform: translateX(-25px);
+			    -ms-transform: translateX(-25px);
+			        transform: translateX(-25px);
+			padding-right: 5%;
+			width: 50%;
+		}
+.rooms-aboutus-cont-col1 img {
+				-webkit-box-shadow: 0rem 0.6rem 3rem #333;
+				        box-shadow: 0rem 0.6rem 3rem #333;
+			}
+.rooms-aboutus-cont-col2 {
+			width: 40%;
+
+		}
+.rooms-aboutus-cont-col2-h2 {
+				color: #b89859;
+			}
+.rooms-aboutus-cont-col2-p {
+				color: white;
+			}
+.rooms-aboutus-cont-col2-btn {
+				text-transform: uppercase;
+			}
 /*ROOMS*/
+/******************************
+SERVICES
+*******************************/
+.services {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+		color-stop(33%, #ffffff),
+		color-stop(33%, #3c0d0d),
+		to(#3c0d0d));
+	background: -webkit-linear-gradient(top, #ffffff 0%,
+		#ffffff 33%,
+		#3c0d0d 33%,
+		#3c0d0d 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,
+		#ffffff 33%,
+		#3c0d0d 33%,
+		#3c0d0d 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,
+		#ffffff 33%,
+		#3c0d0d 33%,
+		#3c0d0d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)),
+		color-stop(33%, rgba(255, 255, 255, 1)),
+		color-stop(33%, rgba(60, 13, 13, 1)),
+		to(rgba(60, 13, 13, 1)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 33%,
+		rgba(60, 13, 13, 1) 33%,
+		rgba(60, 13, 13, 1) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 33%,
+		rgba(60, 13, 13, 1) 33%,
+		rgba(60, 13, 13, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 33%,
+		rgba(60, 13, 13, 1) 33%,
+		rgba(60, 13, 13, 1) 100%);
+	padding-bottom: 90px;
+	padding-bottom: 9rem;
+}
+.services-h2 {
+		text-align: center;
+		width: 100%;
+	}
+.services-cont {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;		
+	}
+.services-cont-item {
+			margin: 10px;
+			margin: 1rem;
+			width: 18%;
+			height: 440px;
+			height: 44rem;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont .title {
+			color: #3c0d0d;
+			font-family: 'Cinzel-Regular', serif;
+			line-height: 1;
+			position: absolute;
+			bottom: 15%;
+			font-size: 31px;
+			font-size: 3.1rem;
+			left: 20px;
+			left: 2rem;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+			z-index: 1000000;
+		}
+.services-cont .content {
+			color: #3c0d0d;
+			position: absolute;
+			bottom: -100%;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+			padding: 20px;
+			padding: 2rem;
+			background: #b89859;
+			background: rgba(184, 152, 89, 0.9);
+			width: 100%;
+			height: 270px;
+			height: 27rem;
+			padding-top: 100px;
+			padding-top: 10rem;
+		}
+.services-cont #serv1 {
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(255, 255, 255, .9))), 
+			url("../img/img-serv-early-checkin.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-early-checkin.jpg");
+			background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-early-checkin.jpg");
+			background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-early-checkin.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont #serv1:hover .title {
+					bottom: 40%;
+					color: white;
+				}
+.services-cont #serv1:hover .content {
+					color: white;
+					bottom: 0%;
+					-webkit-transition: all ease .5s;
+					-o-transition: all ease .5s;
+					transition: all ease .5s;
+				}
+.services-cont #serv2 {
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(255, 255, 255, .9))), 
+			url("../img/img-serv-late-checkout.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-late-checkout.jpg");
+			background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-late-checkout.jpg");
+			background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-late-checkout.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont #serv2:hover .title {
+					bottom: 40%;
+					color: white;
+				}
+.services-cont #serv2:hover .content {
+					color: white;
+					bottom: 0%;
+					-webkit-transition: all ease .5s;
+					-o-transition: all ease .5s;
+					transition: all ease .5s;
+				}
+.services-cont #serv3 {
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(255, 255, 255, .9))), 
+			url("../img/img-serv-cocina-compartida.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-cocina-compartida.jpg");
+			background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-cocina-compartida.jpg");
+			background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-cocina-compartida.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont #serv3:hover .title {
+					bottom: 40%;
+					color: white;
+				}
+.services-cont #serv3:hover .content {
+					color: white;
+					bottom: 0%;
+					-webkit-transition: all ease .5s;
+					-o-transition: all ease .5s;
+					transition: all ease .5s;
+				}
+.services-cont #serv4 {
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(255, 255, 255, .9))), 
+			url("../img/img-serv-guarda-equipaje.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-guarda-equipaje.jpg");
+			background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-guarda-equipaje.jpg");
+			background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-guarda-equipaje.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont #serv4:hover .title {
+					bottom: 40%;
+					color: white;
+				}
+.services-cont #serv4:hover .content {
+					color: white;
+					bottom: 0%;
+					-webkit-transition: all ease .5s;
+					-o-transition: all ease .5s;
+					transition: all ease .5s;
+				}
+.services-cont #serv5 {
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(255, 255, 255, .9))), 
+			url("../img/img-serv-desayuno.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-desayuno.jpg");
+			background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-desayuno.jpg");
+			background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, .9) 100%), 
+			url("../img/img-serv-desayuno.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			-webkit-transition: all ease .5s;
+			-o-transition: all ease .5s;
+			transition: all ease .5s;
+		}
+.services-cont #serv5:hover .title {
+					bottom: 40%;
+					color: white;
+				}
+.services-cont #serv5:hover .content {
+					color: white;
+					bottom: 0%;
+					-webkit-transition: all ease .5s;
+					-o-transition: all ease .5s;
+					transition: all ease .5s;
+				}
+/*SERVICES*/
 @media (min-width: 0px) and (max-width: 500px) {
 html {
     font-size: 8px
@@ -1114,6 +1387,22 @@ html {
 			}
 						.rooms-cont-col2-card3 h2{color: white !important;width: 100%;}
 						.rooms-cont-col2-card3 p{color: white !important;width: 100%;}
+.rooms-aboutus-cont-col1 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
+.rooms-aboutus-cont-col2 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+
+		}
+.services-cont-item {
+				width: 85%;
+				height: 500px;
+				height: 50rem
+		}
   }
 @media (min-width: 501px) and (max-width: 768px) {
 html {
@@ -1157,6 +1446,22 @@ html {
 		margin: 7.5px -15px;
 		text-align: center	
 }
+.rooms-aboutus-cont-col1 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
+.rooms-aboutus-cont-col2 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+
+		}
+.services-cont-item {
+				width: 45%;
+				height: 450px;
+				height: 45rem
+		}
   }
 @media (min-width: 769px) and (max-width: 1024px) {
 html {
@@ -1177,6 +1482,11 @@ html {
 		}
 .footer-cont-col3 {
 				width: 50%	
+		}
+.services-cont-item {
+				width: 30%;
+				height: 480px;
+				height: 48rem
 		}
   }
 @media (min-width: 1025px) and (max-width: 1290px) {

@@ -121,8 +121,7 @@ CTA1
 				width: 100%;
 			}
 		}
-	}
-	
+	}	
 }
 /*CTA1*/
 
@@ -749,4 +748,237 @@ ROOMS
 		}
   }
 }
+.rooms-aboutus {
+	background: var(--colorPpal);
+
+
+	&-cont {
+		display: flex;
+		flex-wrap: wrap;
+
+		&-col1 {
+			transform: translateX(-25px);
+			padding-right: 5%;
+			width: 50%;
+
+			& img {
+				box-shadow: var(--sombra3);
+			}
+
+			@media (--mobile) {
+				padding: 2rem;
+				width: 100%;
+			}
+			@media (--tabletv) {
+				padding: 2rem;
+				width: 100%;
+			}
+		}
+
+		&-col2 {
+			width: 40%;
+
+			@media (--mobile) {
+				padding: 2rem;
+				width: 100%;
+			}
+			@media (--tabletv) {
+				padding: 2rem;
+				width: 100%;
+			}
+			&-h2 {
+				color: var(--colorSec);
+			}
+			&-p {
+				color: white;
+			}
+			&-btn {
+				text-transform: uppercase;
+			}
+
+		}
+	}	
+}
 /*ROOMS*/
+
+/******************************
+SERVICES
+*******************************/
+.services {
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
+		rgba(255,255,255,1) 33%,
+		rgba(60,13,13,1) 33%,
+		rgba(60,13,13,1) 100%);
+	padding-bottom: 9rem;
+
+	&-h2 {
+		text-align: center;
+		width: 100%;
+	}
+
+	&-cont {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+		&-item {
+			margin: 1rem;
+			width: 18%;
+			height: 44rem;
+			transition: all ease .5s;
+
+			@media (--mobile) {
+				width: 85%;
+				height: 50rem;
+			}
+			@media (--tabletv) {
+				width: 45%;
+				height: 45rem;
+			}
+			@media (--tablet) {
+				width: 30%;
+				height: 48rem;
+			}
+		}
+		
+		.title {
+			color: var(--colorPpal);
+			font-family: var(--fontTituloReg);
+			line-height: 1;
+			position: absolute;
+			bottom: 15%;
+			font-size: 3.1rem;
+			left: 2rem;
+			transition: all ease .5s;
+			z-index: 1000000;
+		}
+
+		.content {
+			color: var(--colorPpal);
+			position: absolute;
+			bottom: -100%;
+			transition: all ease .5s;
+			padding: 2rem;
+			background: color(var(--colorSec) a(90%));
+			width: 100%;
+			height: 27rem;
+			padding-top: 10rem;
+		}
+		& #serv1 {
+			background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 100%), 
+			url("../img/img-serv-early-checkin.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			transition: all ease .5s;
+			
+			&:hover {
+				.title {
+					bottom: 40%;
+					color: white;
+				}
+				.content {
+					color: white;
+					bottom: 0%;
+					transition: all ease .5s;
+				}
+			}
+		}
+
+		& #serv2 {
+			background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 100%), 
+			url("../img/img-serv-late-checkout.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			transition: all ease .5s;
+			
+			&:hover {
+				.title {
+					bottom: 40%;
+					color: white;
+				}
+				.content {
+					color: white;
+					bottom: 0%;
+					transition: all ease .5s;
+				}
+			}
+		}
+
+		& #serv3 {
+			background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 100%), 
+			url("../img/img-serv-cocina-compartida.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			transition: all ease .5s;
+			
+			&:hover {
+				.title {
+					bottom: 40%;
+					color: white;
+				}
+				.content {
+					color: white;
+					bottom: 0%;
+					transition: all ease .5s;
+				}
+			}
+		}
+
+		& #serv4 {
+			background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 100%), 
+			url("../img/img-serv-guarda-equipaje.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			transition: all ease .5s;
+			
+			&:hover {
+				.title {
+					bottom: 40%;
+					color: white;
+				}
+				.content {
+					color: white;
+					bottom: 0%;
+					transition: all ease .5s;
+				}
+			}
+		}
+
+		& #serv5 {
+			background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 100%), 
+			url("../img/img-serv-desayuno.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+			transition: all ease .5s;
+			
+			&:hover {
+				.title {
+					bottom: 40%;
+					color: white;
+				}
+				.content {
+					color: white;
+					bottom: 0%;
+					transition: all ease .5s;
+				}
+			}
+		}		
+	}
+}
+
+/*SERVICES*/
