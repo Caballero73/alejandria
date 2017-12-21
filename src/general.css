@@ -144,6 +144,10 @@ fieldset[disabled] .btn-golden.focus {
     max-width: 80vw;
   }
 }
+.flex-center-v {
+  display: flex;
+  align-items: center;
+}
 
 .mosca {
   font-size: 1.2rem;

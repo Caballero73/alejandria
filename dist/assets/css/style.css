@@ -155,6 +155,14 @@ fieldset[disabled] .btn-golden.focus {
 }
 .border-no {border: none;}
 .color-ppal {color: #3c0d0d !important;}
+.flex-center-v {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .mosca {
   font-size: 12px;
   font-size: 1.2rem;
@@ -245,7 +253,6 @@ ABOUTUS
 	background-position: right;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
-
 }
 .aboutus-cont {
 		display: -webkit-box;
@@ -289,6 +296,49 @@ ABOUTUS
 				        justify-content: space-between;
 			}
 /*ABOUTUS*/
+/******************************
+CTA1
+*******************************/
+.cta1 {
+	background-image: url('../img/filigrama2.jpg');
+	background-position: left;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	
+}
+.cta1-cont {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+.cta1-cont-col1 {
+			width: 50%;
+			padding-left: 200px;
+			padding-left: 20rem;
+		}
+.cta1-cont-col1-icons {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-wrap: wrap;
+				    flex-wrap: wrap;
+				-ms-flex-pack: distribute;
+				    justify-content: space-around;
+			}
+.cta1-cont-col2 {
+			padding-left: 5%;
+			-webkit-transform: translateX(25px);
+			    -ms-transform: translateX(25px);
+			        transform: translateX(25px);
+			width: 50%;
+		}
+.cta1-cont-col2 img {
+				-webkit-box-shadow: 0rem 0.6rem 3rem #333;
+				        box-shadow: 0rem 0.6rem 3rem #333;
+			}
+/*CTA1*/
 /******************************
 CONTAC
 *******************************/
@@ -1012,6 +1062,16 @@ html {
 				padding-left: 10px;
 				padding-left: 1rem
 		}
+.cta1-cont-col1 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
+.cta1-cont-col2 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
 .contac {
 		background: white
 }
@@ -1068,6 +1128,16 @@ html {
 .aboutus-cont-col2 {
 				width: 100%
 		}
+.cta1-cont-col1 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
+.cta1-cont-col2 {
+				padding: 20px;
+				padding: 2rem;
+				width: 100%
+		}
 .contac {
 		background: white
 }
@@ -1092,6 +1162,11 @@ html {
 html {
     font-size: 8px
 }
+.cta1-cont-col1 {
+				padding-left: 150px;
+				padding-left: 15rem;
+				width: 50%
+		}
 .footer-cont-col1 {
 				width: 100%
 		}
