@@ -1095,18 +1095,85 @@ ROOMS
 	&-bgw {
 		background-color: color(white a(50%));
 	}
+	&-bgg {
+		background-color: color(var(--colorSec) a(80%));
+	}
 	&-item {
 		display: flex;
 		background-color: var(--colorGrisClaro);
 		box-shadow: var(--sombra1c);
 
+		@media (--mobilep){
+			display: flex;
+			flex-direction: column;
+		}
+		@media (--mobile){
+			display: flex;
+			flex-direction: column;
+		}
+
 		&-img {
 			height: 37rem;
+			width: 50%;
+
+			@media (--mobilep){
+				width: 100%;
+			}
+			@media (--mobile){
+				width: 100%;
+			}
+		}
+		&-texto {
+			width: 50%;
+
+			@media (--mobilep){
+				width: 100%;
+				padding-bottom: 4rem;
+			}
+			@media (--mobile){
+				width: 100%;
+				padding-bottom: 4rem;
+			}
+
+			&-caja {
+				margin-left: 6rem;
+				width: 70%;
+			}
 		}
 	}
 	
 	#room1{
 		background-image: url('../img/img-room-1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}	
+	#room2{
+		background-image: url('../img/img-room-2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}
+	#room3{
+		background-image: url('../img/img-room-3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}	
+	#room4{
+		background-image: url('../img/img-room-4.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}
+	#room5{
+		background-image: url('../img/img-room-5.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}
+	#room6{
+		background-image: url('../img/img-room-6.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center top;
