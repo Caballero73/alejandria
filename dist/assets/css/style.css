@@ -163,6 +163,17 @@ fieldset[disabled] .btn-golden.focus {
       -ms-flex-align: center;
           align-items: center;
 }
+.flex-center-vh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .mosca {
   font-size: 12px;
   font-size: 1.2rem;
@@ -649,6 +660,73 @@ HEADER
 				-o-transition: all .35s ease;
 				transition: all .35s ease;
 			}
+.header-placesall {
+	background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(60, 13, 13, .9))), 
+	url('../img/bg-places1.jpg');
+	background-image:-webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(60, 13, 13, .9) 100%), 
+	url('../img/bg-places1.jpg');
+	background-image:-o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(60, 13, 13, .9) 100%), 
+	url('../img/bg-places1.jpg');
+	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(60, 13, 13, .9) 100%), 
+	url('../img/bg-places1.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.header-placesall-cont{
+		margin-top: 28vh;
+		text-align: center;
+		max-width: 80%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+.header-placesall-cont-h1 {
+			color: white;
+			font-size: 35px;
+			font-size: 3.5rem;
+			text-shadow: 0px 0px 7px #000;
+		}
+.header-placesall-slidedown {
+		position: absolute;
+		bottom: 70px;
+		bottom: 7rem;
+		width: 100%;
+	}
+.header-placesall-slidedown-flex {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			    -ms-flex-pack: center;
+			        justify-content: center;			
+		}
+.header-placesall-slidedown-flex-btn {
+				color: white;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
+				-webkit-box-align: center;
+				    -ms-flex-align: center;
+				        align-items: center;
+				position: relative;
+				text-decoration: none;
+				-webkit-transition: all .35s ease;
+				-o-transition: all .35s ease;
+				transition: all .35s ease;
+			}
+.header-placesall-slidedown-flex-btn:hover {
+				color: #b89859;
+				text-decoration: none;
+				-webkit-transition: all .35s ease;
+				-o-transition: all .35s ease;
+				transition: all .35s ease;
+			}
 /*HEADER*/
 /******************************
 NAVBAR
@@ -968,6 +1046,97 @@ PLACES
 			-o-transition: all .5s ease;
 			transition: all .5s ease;
 		}
+.placesall {
+	padding-bottom: 90px;
+	padding-bottom: 9rem;
+	padding-top: 90px;
+	padding-top: 9rem;
+}
+.placesall-cont {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		max-width: 1170px;
+		max-width: 117rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
+.placesall-cont-items {
+			background-color: #E4E4E4;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between;
+			-ms-flex-wrap: wrap;
+			    flex-wrap: wrap;
+			height: 370px;
+			height: 37rem;
+			width: 48%;
+		}
+.placesall-cont-items-img {				
+				width: 50%;
+				height: auto;
+			}
+.placesall-cont-items-texto {				
+				width: 50%;
+				padding: 30px;
+				padding: 3rem;
+			}
+.placesall #places1 {
+		background-image: url('../img/img-placesall-01.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places2 {
+		background-image: url('../img/img-placesall-02.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places3 {
+		background-image: url('../img/img-placesall-03.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places4 {
+		background-image: url('../img/img-placesall-04.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places5 {
+		background-image: url('../img/img-placesall-05.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places6 {
+		background-image: url('../img/img-placesall-06.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places7 {
+		background-image: url('../img/img-placesall-07.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+.placesall #places8 {
+		background-image: url('../img/img-placesall-08.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
 /*PLACES*/
 /******************************
 ROOMS
@@ -1323,6 +1492,9 @@ SERVICES
 					transition: all ease .5s;
 				}
 /*SERVICES*/
+/******************************
+MEDIA-QUERIS
+*******************************/
 @media (min-width: 0px) and (max-width: 500px) {
 html {
     font-size: 8px
@@ -1364,6 +1536,11 @@ html {
 		margin: 7.5px -15px;
 		text-align: center	
 }
+.placesall-cont-items {
+				height: 500px;
+				height: 50rem;
+				width: 100%
+		}
 .rooms-cont-col1 {
 				margin-left: 20px;
 				margin-left: 2rem;
@@ -1446,6 +1623,10 @@ html {
 		margin: 7.5px -15px;
 		text-align: center	
 }
+.placesall-cont-items {
+				margin-left: 5%;
+				width: 90%
+		}
 .rooms-aboutus-cont-col1 {
 				padding: 20px;
 				padding: 2rem;
@@ -1494,3 +1675,5 @@ html {
     font-size: 9px
 }
   }
+
+

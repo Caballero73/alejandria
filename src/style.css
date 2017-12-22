@@ -412,6 +412,58 @@ HEADER
 		}
 	}
 }
+
+.header-placesall {
+	background-image:linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(60,13,13,0.9) 100%), 
+	url('../img/bg-places1.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+
+	&-cont{
+		margin-top: 28vh;
+		text-align: center;
+		max-width: 80%;
+		margin-left: auto;
+		margin-right:auto;
+		
+		&-h1 {
+			color: white;
+			font-size: 3.5rem;
+			text-shadow: 0px 0px 7px #000;
+		}
+	}
+
+	&-slidedown {
+		position: absolute;
+		bottom: 7rem;
+		width: 100%;
+
+		&-flex {
+			display: flex;
+			justify-content: center;
+
+			&-btn {
+				color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				text-decoration: none;
+				transition: var(--tra35);
+			}
+
+			&-btn:hover {
+				color: var(--colorSec);
+				text-decoration: none;
+				transition: var(--tra35);
+			}			
+		}
+	}
+}
 /*HEADER*/
 
 /******************************
@@ -652,6 +704,95 @@ PLACES
 			transform: translateY(100%);
 			transition: var(--tra50);
 		}
+	}
+}
+
+.placesall {
+	padding-bottom: 9rem;
+	padding-top: 9rem;
+	
+	&-cont {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		max-width: 117rem;
+		margin-right: auto;
+		margin-left: auto;
+
+		&-items {
+			background-color: var(--colorGrisClaro);
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			height: 37rem;
+			width: 48%;
+
+			@media (--mobile) {
+				height: 50rem;
+				width: 100%;
+			}
+			@media (--tabletv) {
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			&-img {				
+				width: 50%;
+				height: auto;
+			}
+			&-texto {				
+				width: 50%;
+				padding: 3rem;
+			}
+		}
+	}
+	& #places1 {
+		background-image: url('../img/img-placesall-01.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places2 {
+		background-image: url('../img/img-placesall-02.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places3 {
+		background-image: url('../img/img-placesall-03.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places4 {
+		background-image: url('../img/img-placesall-04.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places5 {
+		background-image: url('../img/img-placesall-05.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places6 {
+		background-image: url('../img/img-placesall-06.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places7 {
+		background-image: url('../img/img-placesall-07.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	& #places8 {
+		background-image: url('../img/img-placesall-08.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
 	}
 }
 /*PLACES*/
@@ -982,3 +1123,9 @@ SERVICES
 }
 
 /*SERVICES*/
+
+/******************************
+MEDIA-QUERIS
+*******************************/
+
+

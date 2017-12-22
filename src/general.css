@@ -148,6 +148,11 @@ fieldset[disabled] .btn-golden.focus {
   display: flex;
   align-items: center;
 }
+.flex-center-vh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .mosca {
   font-size: 1.2rem;
