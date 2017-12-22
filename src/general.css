@@ -4,7 +4,10 @@ ESTILOS GENERALES: general.css;
 html {
 	font-size: 10px;
 
-	@media (--mobile) {
+	@media (--mobilep) {
+    font-size: 7px;
+  }
+  @media (--mobile) {
     font-size: 8px;
   }
   @media (--tabletv) {

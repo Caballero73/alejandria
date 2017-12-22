@@ -2,12 +2,8 @@ $(document).ready(function(){
   //Carrusel Branding
   $('.places-items').slick({
     arrows: false,
-    dots: false,
-    autoplay: false,
-    autoplaySpeed: 0,
-    infinite: false,
+    dots: false,    
     slidesToShow: 5,
-    slidesToScroll: 0,
     responsive: [
       {
         breakpoint: 1024,

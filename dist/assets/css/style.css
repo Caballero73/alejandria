@@ -1495,7 +1495,94 @@ SERVICES
 /******************************
 MEDIA-QUERIS
 *******************************/
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 330px) {
+html {
+    font-size: 7px
+}
+.aboutus-cont-col1 {
+				width: 100%
+		}
+.aboutus-cont-col2 {
+				width: 100%;
+				padding-left: 8px;
+				padding-left: 0.8rem
+		}
+.cta1-cont-col1 {
+				padding: 15px;
+				padding: 1.5rem;
+				width: 100%
+		}
+.cta1-cont-col2 {
+				padding: 15px;
+				padding: 1.5rem;
+				width: 100%
+		}
+.contac {
+		background: white
+}
+.footer-cont-col1 {
+				width: 100%
+		}
+.footer-cont-col2 {
+				width: 100%	
+		}
+.footer-cont-col3 {
+				width: 100%;
+				text-align:center;
+				padding: 15px;
+				padding: 1.5rem	
+		}
+.navbar-nav li a {
+		margin: 7.5px -15px;
+		margin: 0.75rem -1.5rem;
+		text-align: center	
+}
+.placesall-cont-items {
+				height: 500px;
+				height: 50rem;
+				width: 100%
+		}
+.rooms-cont-col1 {
+				margin-left: 15px;
+				margin-left: 1.5rem;
+				width: 100%
+		}
+.rooms-cont-col2-card1{
+						padding: 15px;
+						padding: 1.5rem
+			}
+						.rooms-cont-col2-card1 h2{color: white !important;width: 100%;}
+						.rooms-cont-col2-card1 p{color: white !important;width: 100%;}
+.rooms-cont-col2-card2{
+						padding: 15px;
+						padding: 1.5rem
+			}
+						.rooms-cont-col2-card2 h2{color: white !important;width: 100%;}
+						.rooms-cont-col2-card2 p{color: white !important;width: 100%;}
+.rooms-cont-col2-card3{
+						padding: 15px;
+						padding: 1.5rem
+			}
+						.rooms-cont-col2-card3 h2{color: white !important;width: 100%;}
+						.rooms-cont-col2-card3 p{color: white !important;width: 100%;}
+.rooms-aboutus-cont-col1 {
+				padding: 15px;
+				padding: 1.5rem;
+				width: 100%
+		}
+.rooms-aboutus-cont-col2 {
+				padding: 15px;
+				padding: 1.5rem;
+				width: 100%
+
+		}
+.services-cont-item {
+				width: 90%;
+				height: 500px;
+				height: 50rem
+		}
+  }
+@media (min-width: 331px) and (max-width: 500px) {
 html {
     font-size: 8px
 }
@@ -1534,6 +1621,7 @@ html {
 		}
 .navbar-nav li a {
 		margin: 7.5px -15px;
+		margin: 0.75rem -1.5rem;
 		text-align: center	
 }
 .placesall-cont-items {
@@ -1621,6 +1709,7 @@ html {
 		}
 .navbar-nav li a {
 		margin: 7.5px -15px;
+		margin: 0.75rem -1.5rem;
 		text-align: center	
 }
 .placesall-cont-items {
