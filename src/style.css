@@ -493,6 +493,88 @@ HEADER
 		}
 	}
 }
+.header-room {
+	background-image:linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(60,13,13,0.9) 100%), 
+	url('../img/bg-room1.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+
+	&-cont{
+		margin-top: 28vh;
+		text-align: center;
+		max-width: 80%;
+		margin-left: auto;
+		margin-right:auto;
+
+		@media (--mobilep) {
+			margin-top: 10vh;
+			max-width: 90%;
+		}
+		@media (--mobile) {
+			margin-top: 10vh;
+			max-width: 90%;
+		}
+		
+		&-h1 {
+			color: white;
+			font-size: 3.5rem;
+			text-shadow: 0px 0px 7px #000;
+		}
+
+		&-icons {
+			color: white;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			max-width: 70%;
+			margin-right: auto;
+			margin-left: auto;
+
+			& img {
+				margin-bottom: 1rem;
+			}
+
+			@media (--mobilep){
+				max-width: 100%;
+			}
+			@media (--mobile){
+				max-width: 100%;
+			}
+		}
+	}
+
+	&-slidedown {
+		position: absolute;
+		bottom: 7rem;
+		width: 100%;
+
+		&-flex {
+			display: flex;
+			justify-content: center;
+
+			&-btn {
+				color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				text-decoration: none;
+				transition: var(--tra35);
+			}
+
+			&-btn:hover {
+				color: var(--colorSec);
+				text-decoration: none;
+				transition: var(--tra35);
+			}			
+		}
+	}
+
+}
 /*HEADER*/
 
 /******************************
@@ -1002,6 +1084,32 @@ ROOMS
 			}
 
 		}
+	}	
+}
+.room {
+	background-image: url('../img/filigrama3.jpg');
+	background-position: right;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+
+	&-bgw {
+		background-color: color(white a(50%));
+	}
+	&-item {
+		display: flex;
+		background-color: var(--colorGrisClaro);
+		box-shadow: var(--sombra1c);
+
+		&-img {
+			height: 37rem;
+		}
+	}
+	
+	#room1{
+		background-image: url('../img/img-room-1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
 	}	
 }
 /*ROOMS*/
