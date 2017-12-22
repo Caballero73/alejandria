@@ -6,6 +6,8 @@
 	}
 	height: 1150px;
 	background-image: url("../img/bg.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
 	padding: 100px 15rem 0;
 	@media screen and (min-width:0px) and (max-width:767px){
 		padding: 100px 10px;
@@ -65,7 +67,7 @@
 			width: 100%;
 			height:30px;
 			padding-left: 1rem;
-			color: #163262;
+			color: #333;
 			&:focus{
 				outline-color: transparent !important;
 			}
