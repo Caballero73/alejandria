@@ -414,7 +414,7 @@ HEADER
 
 	&-slidedown {
 		position: absolute;
-		bottom: 7rem;
+		bottom: 2rem;
 		width: 100%;
 
 		&-flex {
@@ -466,7 +466,7 @@ HEADER
 
 	&-slidedown {
 		position: absolute;
-		bottom: 7rem;
+		bottom: 2rem;
 		width: 100%;
 
 		&-flex {
@@ -547,7 +547,7 @@ HEADER
 
 	&-slidedown {
 		position: absolute;
-		bottom: 7rem;
+		bottom: 2rem;
 		width: 100%;
 
 		&-flex {

@@ -692,8 +692,8 @@ HEADER
 		}
 .header-aboutus-slidedown {
 		position: absolute;
-		bottom: 70px;
-		bottom: 7rem;
+		bottom: 20px;
+		bottom: 2rem;
 		width: 100%;
 	}
 .header-aboutus-slidedown-flex {
@@ -759,8 +759,8 @@ HEADER
 		}
 .header-placesall-slidedown {
 		position: absolute;
-		bottom: 70px;
-		bottom: 7rem;
+		bottom: 20px;
+		bottom: 2rem;
 		width: 100%;
 	}
 .header-placesall-slidedown-flex {
@@ -845,8 +845,8 @@ HEADER
 			}
 .header-room-slidedown {
 		position: absolute;
-		bottom: 70px;
-		bottom: 7rem;
+		bottom: 20px;
+		bottom: 2rem;
 		width: 100%;
 	}
 .header-room-slidedown-flex {
