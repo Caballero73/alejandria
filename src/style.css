@@ -25,6 +25,7 @@ ABOUTUS
 		flex-wrap: wrap;
 
 		&-col1 {
+			height: auto;
 			width: 50%;
 			margin-left: -2rem;
 
@@ -37,15 +38,11 @@ ABOUTUS
 			@media (--tabletv) {
 				width: 100%;
 			}
-			
-			& img{
-				margin-right: 2rem;
-			}
 			&-fila1{
-				display:flex;
+				display:inline-block;
 			}
 			&-fila2{
-				display:flex;
+				display:inline-block;
 			}
 		}
 		&-col2 {

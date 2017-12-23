@@ -348,23 +348,16 @@ ABOUTUS
 		    flex-wrap: wrap;
 	}
 .aboutus-cont-col1 {
+			height: auto;
 			width: 50%;
 			margin-left: -20px;
 			margin-left: -2rem;
 		}
-.aboutus-cont-col1 img{
-				margin-right: 20px;
-				margin-right: 2rem;
-			}
 .aboutus-cont-col1-fila1{
-				display:-webkit-box;
-				display:-ms-flexbox;
-				display:flex;
+				display:inline-block;
 			}
 .aboutus-cont-col1-fila2{
-				display:-webkit-box;
-				display:-ms-flexbox;
-				display:flex;
+				display:inline-block;
 			}
 .aboutus-cont-col2 {
 			width: 40%;
